@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Contato — Plataforma para ONGs</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <a class="skip-link" href="#main">Ir para o conteúdo</a>
+  <header class="site-header" role="banner">
+    <div class="container">
+      <a href="index.html" class="logo" aria-label="Inicio - Plataforma para ONGs">
+        <img src="assets/logo.svg" alt="Logo Plataforma para ONGs" />
+      </a>
+      <nav role="navigation" aria-label="Menu principal">
+        <ul class="menu">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="sobre.html">Sobre</a></li>
+          <li><a href="projetos.html">Projetos</a></li>
+          <li><a href="contato.html">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1" role="main" class="container">
+    <h1>Contato</h1>
+    <form class="contact-form" action="#" method="post" aria-label="Formulário de contato">
+      <label for="nome">Nome</label>
+      <input id="nome" name="nome" type="text" required />
+
+      <label for="email">Email</label>
+      <input id="email" name="email" type="email" required />
+
+      <label for="mensagem">Mensagem</label>
+      <textarea id="mensagem" name="mensagem" rows="6" required></textarea>
+
+      <button type="submit" class="btn">Enviar</button>
+    </form>
+  </main>
+
+  <footer role="contentinfo" class="site-footer">
+    <div class="container">
+      <p>© Mayra Mickely da Costa Paiva</p>
+    </div>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
